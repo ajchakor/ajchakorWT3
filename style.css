@@ -1,0 +1,43 @@
+body 
+{
+  background-image: url('bg.jpg');
+  background-size: cover;
+  position: relative;
+}
+.container
+{
+  align-items: center;
+  justify-content: center;   
+  padding-top: 190px;
+}
+#table1
+{
+  display:none;
+  background:rgba(136, 228, 167, 0.5);
+}
+.tab
+{
+  margin-top: 30px;
+  padding-left: 40px;
+  font-weight: lighter;
+}
+.selectorbox{
+  margin-left: 305px;
+  margin-right: 305px;
+}
+.box{
+  margin-left: 200px;
+  margin-right:100px;
+}
+select{
+  margin-left: 200px;
+  box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, .1);
+  width: 500px;
+  height: 60px;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 3px;
+  border:1px solid rgba(252,252,245,1.0);
+  background:rgba(241, 199, 171, 0.7); 
+  color: rgba(84,46,47,10);
+}

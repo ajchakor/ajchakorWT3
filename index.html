@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Online restaurant menu</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>  
+    <div class="container">
+     <div class="selectorbox">
+        <select name="item restaurant-dropdown restaurant"  id="restaurant">
+        <option value="">Select Your Order</option>
+      </select>
+     </div>
+      <br>
+  
+      <div class="box">
+        <table id="table1" class="table table-light tab">
+        <tr>
+          <th>Food Name: </th>
+          <td id="itemname"></td>
+        </tr>
+        <tr>
+          <th>Item ID: </th>
+          <td id="itemid"></td>
+        </tr>
+        <tr>
+          <th>Shortened Name: </th>
+          <td id="sname"></td>
+        </tr>
+        <tr>
+          <th>Description: </th>
+          <td id="desc"></td>
+        </tr>
+        <tr>
+          <th>Price(Small): </th>
+          <td id="priceS"></td>
+        </tr>
+        <tr>
+          <th>Price(Large): </th>
+          <td id="priceL"></td>
+        </tr>
+      </table>
+      </div>
+    </div>
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="script.js" defer></script>
+  </body>
+</html>
